@@ -1,0 +1,27 @@
+/* .gallery .modal .inner img {
+  box-shadow: 0 1rem 3rem 0 rgb(0 0 0 / 35%);
+  display: block;
+
+  max-height: auto !important;
+  max-width: auto !important; }
+
+
+.modal.visible.loaded{
+  overflow: scroll; } */
+
+
+  
+.gallery .modal .inner{
+  width: 80%;  /* 사이즈 원하는대로 조절하면됨 */ 
+  max-height: 80vh;  /* 사이즈 원하는대로 조절하면됨 */ 
+  position: fixed; top: 50%; left: 50%; 
+  transform: translate(-50%, -50%) !important;
+  overflow-y: scroll;
+}
+
+.gallery .modal .inner img {
+width: 100%;
+max-width:none;
+max-height: none;
+}
+
